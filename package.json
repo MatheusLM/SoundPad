@@ -7,8 +7,7 @@
 		"watch": "tsc -w",
 		"lint": "eslint -c .eslintrc --ext .ts ./src",
 		"start": "electron ./dist/main.js",
-		"dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"tsc && npm run start\"",
-		"test": "nodemon -w './src/**'"
+		"dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"tsc && npm run start\""
 	},
 	"author": "Matheus Lopes Marques",
 	"github": "https://github.com/MatheusLM/SoundPad",
